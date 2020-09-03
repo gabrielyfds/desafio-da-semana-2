@@ -1,0 +1,107 @@
+<html>
+     <head>
+        <title>Meu Primeiro Site</title>
+        <link href="estilo.CSS" rel="stylesheet"/>
+     </head>
+    <body>
+        <header>
+                <img id="logo" src="img/edu.jpg" alt="Educação de Qualidade"/>
+            <ul id="menu">
+                <li><a href="#projetos">Projeto</a></li>
+                <li><a href="#seleção">Objetivos</a></li>
+                <li><a href="#citação">Citação</a></li>
+                <li><a href="#sugestoes">Sugestões</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </header>
+            <div id="imagem_fundo">
+                <h1 id="título">Educação para Todos</h1>
+                <h2 id="subtítulo">A educação essencial e necessária para todas as nossas crianças e jovens do Brasil.</h2>
+                <a id="ação" href="https://nacoesunidas.org/pos2015/ods4/" target="_blanck">Saiba mais</a>
+            </div>
+            <section id="projeto">
+             <div class="coluna dois destaque">
+                <iframe width="100%" height="331" src="https://www.youtube.com/embed/bopmvB6a5Ls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </section>
+            <section id="projetos">
+            <div class="coluna dois destaque">
+                <h2 class="centralizado">Projeto</h2>
+                <p class="justificado">A educação é um direito de todos e é de extrema importância a reforma para que todas as crianças e adolescentes possam obter toda a educação e estudos necessários para concluir e evoluir.</p>
+                <p class="justificado">A escola deve ser vista como uma segunda casa, procurando sempre se aproximar mais de seus alunos. Procurando formas de entretenimento vinculado ao estudo, fazendo com que os alunos se interessem mais pelo espaço escolar.
+                <p class="justificado">Conhecimento escolar deve ser prioridade a todos, extinguindo preconceitos e focando no bem estar psicológico e educativos dos jovens estudantes. Este projeto abordará este tema e mostrará como é necessário que crianças, jovens e adultos de todas as culturas e gêneros possuem o direito de estudar e ter um ensino digno, qualitativo e sustentável.</p>
+             </div>
+            </section>
+           
+            <section id="seleção">
+                <div class="obj">
+                    <h2 class="centralizado">Objetivos para melhorar a Educação!</h2>
+                </div> 
+                <div class="coluna quatro sem">
+                    <img class="ícone" src="img/educação_completa.jpg" alt="Educação Completa"/>
+                    <h3 class="centralizado">Educação Completa</h3>
+                    <p class="justificado">Garantia que todos completem os estudos com qualidade e obtendo resultados excelentes.</p>
+                </div> 
+                <div class="coluna quatro sem">
+                    <img class="ícone" src="img/igualdade.jpg" alt="Igualdade"/>
+                    <h3 class="centralizado">Igualdade</h3>
+                    <p class="justificado">Igualdade para homens e mulheres à educação técnica, profissional e superior de qualidade, a preços acessíveis, incluindo universidade. Eliminando total preconceito e garantindo acesso a todos.</p>
+                </div>
+                <div class="coluna quatro sem">
+                    <img class="ícone" src="img/alfabetizados.jpg" alt="Alfabetizados"/>
+                    <h3 class="centralizado">Alfabetizados</h3>
+                    <p class="justificado">Garantir que todos os jovens e tal proporção dos adultos estejam alfabetizados e tenham adquirido o conhecimento básico de matemática.</p>
+                </div>
+                <div class="coluna quatro sem">
+                    <img class="ícone" src="img/sustentabilidade.jpg" alt="sustentabilidade"/>
+                    <h3 class="centralizado">Sustentabilidade</h3>
+                    <p class="justificado">Promover estilos, direitos humanos, igualdade de gênero, promoção de uma cultura de paz e não violência, cidadania global e valorização da diversidade cultural e da contribuição da cultura para o desenvolvimento sustentável a todos os alunos, por meio da educação.</p>
+                </div>
+
+            </section>
+            <section id="citação">
+                <div class="coluna dois destaque">
+                     <h4 class="justificado">“A principal meta da educação é criar homens que sejam capazes de fazer coisas novas, não simplesmente repetir o que outras gerações já fizeram. Homens que sejam criadores, inventores, descobridores. A segunda meta da educação é formar mentes que estejam em condições de criticar, verificar e não aceitar tudo que a elas se propõe”.</h4>
+                     <p class="centralizado">-Jean Piaget </p>
+                </div>
+                <div class="coluna dois destaque">
+                    <img src="img/citação.jpg" alt="jean piaget psicologo" width="340px"/>
+                </div>
+            </section>
+
+            <section id="sugestoes">
+                <h3 id="melhorar" class="centralizado">Sugestões para Melhorar a Educação!</h3>
+                <p class="centralizado">Algumas sugestões de mudanças para melhorar o rendimento escolar</p>
+                <div class="coluna tres">
+                    <img class="imgmel" src="img/img1.jpg" alt="professora"/>
+                    <h4 class="centralizado">Infraestrutura Decente</h4>
+                    <p class="justificado">Há inúmeras escolas em péssimas condições. Todas as escolas deveriam ter lousas, materiais e carteiras adequadas para acarretar melhor resultado dos alunos e professores. Junto com isso, conseguir promover o melhoramento em todas as escolas públicas destinadas aos brasileiros de todas as regiões.</p>
+                </div>
+                <div class="coluna tres">
+                     <img class="imgmel" src="img/img2.jpg" alt="corredor"/>
+                     <h4 class="centralizado">Absenteísmo</h4>
+                     <P class="justificado">Usufruir muito bem dos 200 dias letivos, sem desperdícios com a falta de professores. Reconhecer o real problema sobre a falta de professores e solucioná-la.</P>
+                </div>
+                <div class="coluna tres">
+                     <img class="imgmel" src="img/img3.jpg" alt="mulheres mexendo no computador"/>
+                     <h4 class="centralizado">Uso da Tecnologia</h4>
+                     <p class="justificado">Os softwares poderiam ser usados para o bem coletivo por meio da educação. Ampliar os modos de ensinar, podendo usufruir da tecnologia que está aumentando cada vez mais. Definir um bom software que consiga assentar a necessidade dos alunos.</p>
+                </div>
+            </section>
+
+            <section id="sobre" class="destaque">
+                <div class="coluna dois">
+                     <h3 class="centralizado">Sobre mim</h3>
+                     <p class="centralizado">Gabriely Fernanda da Silva</p>
+                     <p class="justificado">Tenho 16 anos e estou no segundo ano do ensino médio na escola Bom Pastor, Chapecó-SC. Sou uma pessoa que adora desafios e por conta disso, me propus a entrar nessa nova jornada e fazer algo que eu jamais pensei, entrar no mundo da programação. Sempre preferi estar rodeada de livros, uma pessoa completamente de humanas, porém, acabei me interessando, e atualmente, estou adorando esse estudo e sou privilegiada por ter participado deste curso.</p> 
+                </div>
+                <div class="coluna dois">
+                     <img src="img/eu.jpg" alt="gabriely" width="300px"/>
+                </div>
+            </section>
+        <footer>
+            <h3>Meu Primeiro Site</h3>
+            <p>Projeto desenvolvido durante o curso Meu Primeiro Site, promovido pelo Junior Achievement Brasil e Microsoft</p>
+        </footer>
+    </body>
+</html>
