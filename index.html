@@ -132,3 +132,184 @@
         </footer>
     </body>
 </html>
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@700&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+html,body {
+    margin: 0;
+}
+header {
+    background-color:black;
+    color: #AD0A3D;
+    height:60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width:60px;
+    position: absolute;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    list-style: none;
+    margin: 10 10 30 30;
+    font-family: 'Gayathri', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+li {
+    float: left;
+    padding: 10 10 20 20;
+    text-decoration: none;
+}
+li:hover {
+    background-color:#DE0D4F;
+    text-decoration: none;
+}
+#imagem_fundo {
+    background: url("fundo.jpeg");
+    height: 450px;
+    text-align: center;
+    background-size: cover;
+}
+#título {
+    color: #AD0A3D;
+    padding-top: 10%;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+#subtítulo {
+    color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-shadow:#DE0D4F;
+    font-family: 'Gayathri', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#ação {
+    color:#5E0622;
+    border: 2px #5E0622 solid;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Playfair Display', serif;
+}
+#projeto {
+    color: black;
+    padding-top: 20px;
+}
+.ícone {
+    width:50%;
+    padding: 25%;
+    position:relative;
+}
+#seleção {
+    padding-left: 25px;
+    background-size: cover;
+}
+.coluna {
+    float: left;
+    padding: 0% 5%;
+    position: relative;
+}
+.dois{
+    width: 40%;
+    padding-top: 10;
+}
+.tres {
+    width: 25%;
+    padding: 0 4%;
+}
+.quatro {
+    width: 15%;
+    padding-top: 0;
+    position: relative;
+}
+.obj {
+    text-align: center;
+    padding-left: 50%;
+    background-color: white;
+    clear: both;
+    transform: translate(-25%)
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+.destaque {
+    background-color: #ffe9e9;
+}
+.imgmel {
+    width:100%;
+}
+.sem {
+    background-color:white;
+}
+.eu {
+    float: left;
+    width: 300px;
+}
+#sobre {
+    background-size: cover;
+    float: left;
+}
+#citação {
+    background-size: cover;
+    float: right;
+}
+#melhorar {
+    clear: top;
+}
+footer {
+    background-color:#AD0A3D;
+    background: cover;
+}
+.center {
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    #menu {
+        visibility: hidden;
+    }
+    .coluna, .dois, .tres, .quatro {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    #logo {
+        margin-left: 0px;
+        transform: translate(-50%);
+    }
+    footer {
+        display: block;
+    }
+}
+
+.fundo {
+    background-color:#AD0A3D;
+    display: block;
+}
+
+#black {
+    font-family: 'Playfair Display', serif;
+    color:black;
+}
+#pro {
+    font-family: 'Playfair Display', serif;
+    color: #AD0A3D;
+}
+#texto {
+    font-family: 'Roboto', sans-serif;
+    color:black;
